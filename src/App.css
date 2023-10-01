@@ -1,0 +1,42 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100vh; /* Make the app take the full viewport height */
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px; /* Add margin for spacing */
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.todo-title {
+  font-size: 24px; /* Increase font size for the todo title */
+  margin-right: 40px; /* Add spacing between title and checkbox */
+}
+
+.btn-danger {
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 1px 2px; /* Increase padding for the delete button */
+  border: none;
+  border-radius: 8px; /* Increase border radius */
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px; /* Increase font size for the delete button */
+}
+
+.btn-danger:hover {
+  background-color: #ff4646;
+}

@@ -1,0 +1,44 @@
+/* NewTodoForm.css */
+
+.new-item-form {
+  background-color: #f7f7f7;
+  padding: 30px; /* Increased padding */
+  border-radius: 10px; /* Increased border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+  max-width: 400px; /* Increased maximum width */
+  margin: 0 auto;
+}
+
+.form-row {
+  margin-bottom: 20px; /* Increased margin bottom */
+}
+
+.form-label {
+  font-weight: bold;
+  display: block;
+  font-size: 20px; /* Increased font size */
+  margin-bottom: 10px; /* Increased margin bottom */
+}
+
+.form-input {
+  width: 100%;
+  padding: 15px; /* Increased padding */
+  font-size: 18px; /* Increased font size */
+  border: 2px solid #ccc; /* Increased border size */
+  border-radius: 8px; /* Increased border radius */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px; /* Increased padding */
+  border: none;
+  border-radius: 8px; /* Increased border radius */
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px; /* Increased font size */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
